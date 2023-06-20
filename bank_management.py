@@ -112,7 +112,7 @@ class Admin:
    
     def check_total_loan(self):
         total_loan = bank.total_loan_amount
-        print(f'Total available balance of the bank bank: {total_loan}')
+        print(f'Total loan amount given from the bank: {total_loan}')
     
     def change_loan_feature(self):
         if bank.loan_feature:
